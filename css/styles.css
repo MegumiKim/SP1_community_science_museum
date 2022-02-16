@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "chillax";
+	src: url(../fonts/Chillax_Complete/Fonts/WEB/fonts/Chillax-Variable.woff2);
+}
+
 /* global */
 body {
 	font: 18px poppins;
@@ -6,10 +11,11 @@ body {
 
 main {
 	max-width: 800px;
+	margin: auto;
 }
 
 section {
-	margin: 13%;
+	margin: 10% 10% 0 10%;
 }
 
 img {
@@ -17,7 +23,10 @@ img {
 }
 
 h1 {
-	font: 30px orbitron;
+	/* font: 30px orbitron; */
+	font-family: "chillax";
+	font-weight: bold;
+	font-size: 40px;
 	text-align: center;
 	margin: 40px;
 	text-transform: capitalize;
@@ -43,7 +52,7 @@ header {
 	max-width: 160px;
 	font-size: 0.8em;
 	display: flex;
-	font-family: orbitron;
+	font-family: "chillax";
 	text-decoration: none;
 	color: #333;
 	position: absolute;
@@ -102,12 +111,15 @@ nav a:hover {
 footer {
 	background-color: var(--color_header);
 	padding: 20px;
+	color: var(--color_grey);
 }
 
 footer h1 {
-	font-size: 1rem;
+	font-size: 20px;
+	font-weight: 400;
 	margin: 0;
 }
+
 .social-media {
 	margin-top: 10px;
 	text-align: center;
@@ -137,13 +149,6 @@ footer h1 {
 	gap: 20px;
 }
 
-/* .category_icon {
-	display: block;
-	font-size: 100%;
-	text-align: center;
-	margin-bottom: 10px;
-} */
-
 .fa-solid fa-angle-up {
 	font-size: 50px;
 	position: absolute;
@@ -151,7 +156,8 @@ footer h1 {
 }
 
 #cosmology {
-	margin: 0;
+	margin: 20% 0 0 0;
+
 	padding: 15%;
 	background-image: url(../images/resized/exhibit/stars.jpg);
 	border-radius: 7em 7em 0 0;
@@ -172,6 +178,7 @@ footer h1 {
 	margin: 0;
 	padding: 10% 15%;
 	color: white;
+	background-size: cover;
 	background-image: url(../images/resized/exhibit/medicine.jpg);
 }
 
@@ -184,7 +191,7 @@ footer h1 {
 	padding: 15%;
 	color: white;
 	margin: 0;
-	background-size: 220%;
+	background-size: cover;
 	background-image: url(../images/resized/exhibit/ecology.jpg);
 	background-position-x: center;
 }
