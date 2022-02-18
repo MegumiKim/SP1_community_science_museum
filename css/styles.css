@@ -15,7 +15,7 @@ main {
 }
 
 section {
-	margin: 10% 10% 0 10%;
+	margin: 5% 10% 5% 10%;
 }
 
 img {
@@ -23,16 +23,20 @@ img {
 }
 
 h1 {
-	/* font: 30px orbitron; */
 	font-family: "chillax";
 	font-weight: bold;
 	font-size: 40px;
 	text-align: center;
-	margin: 40px;
 	text-transform: capitalize;
+	background-color: rgba(248, 246, 246, 0.6);
+	background-size: cover;
+	background-blend-mode: lighten;
+	/* min-height: 100px; */
+	margin: 0;
 }
 
 h2 {
+	font-family: "chillax";
 	font: 25px;
 	text-transform: capitalize;
 }
@@ -42,9 +46,9 @@ hr {
 }
 /* header */
 header {
-	background-color: #fff8d6;
+	background-color: var(--color_header);
 	display: flex;
-	height: 40px;
+	min-height: 70px;
 	justify-content: flex-start;
 }
 
@@ -53,6 +57,7 @@ header {
 	font-size: 0.8em;
 	display: flex;
 	font-family: "chillax";
+	font-weight: 500;
 	text-decoration: none;
 	color: #333;
 	position: absolute;
@@ -83,7 +88,7 @@ nav,
 #hamburger-icon {
 	order: 2;
 	position: absolute;
-	right: 20px;
+	right: 40px;
 	align-self: center;
 }
 
@@ -94,20 +99,23 @@ nav a {
 	text-decoration: none;
 	right: 10px;
 	text-transform: capitalize;
-	font-weight: bold;
+	font-family: "chillax";
+	font-weight: 500;
 }
 
 nav a:hover {
-	color: var(--color_yellow);
+	font-weight: bold;
 }
 
 #search_icon {
 	position: absolute;
-	right: 50px;
+	right: 70px;
 	align-self: center;
-	top: 10px;
 }
 
+.current_page {
+	text-decoration: underline;
+}
 footer {
 	background-color: var(--color_header);
 	padding: 20px;
@@ -117,81 +125,11 @@ footer {
 footer h1 {
 	font-size: 20px;
 	font-weight: 400;
-	margin: 0;
+	margin: 10px 0;
+	background-color: var(--color_header);
 }
 
 .social-media {
 	margin-top: 10px;
 	text-align: center;
-}
-
-/* exhibit */
-.category a,
-.category i {
-	text-transform: uppercase;
-	text-decoration: none;
-	color: var(--color_h1);
-	text-align: center;
-	display: block;
-	margin: 10px;
-}
-
-.category {
-	border: 1px solid var(--color_partition);
-	/* height: 100px; */
-	padding: 10px;
-	border-radius: 40px;
-}
-
-.exhibit_categories {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 20px;
-}
-
-.fa-solid fa-angle-up {
-	font-size: 50px;
-	position: absolute;
-	right: 80px;
-}
-
-#cosmology {
-	margin: 20% 0 0 0;
-
-	padding: 15%;
-	background-image: url(../images/resized/exhibit/stars.jpg);
-	border-radius: 7em 7em 0 0;
-	color: white;
-}
-
-#cosmology h2 {
-	text-align: center;
-	margin-bottom: 10%;
-}
-
-#evolution h2 {
-	position: absolute;
-	right: 10%;
-}
-
-#biology {
-	margin: 0;
-	padding: 10% 15%;
-	color: white;
-	background-size: cover;
-	background-image: url(../images/resized/exhibit/medicine.jpg);
-}
-
-#img_rob {
-	max-width: 300px;
-	margin: auto;
-}
-
-#ecology {
-	padding: 15%;
-	color: white;
-	margin: 0;
-	background-size: cover;
-	background-image: url(../images/resized/exhibit/ecology.jpg);
-	background-position-x: center;
 }
