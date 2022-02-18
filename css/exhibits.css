@@ -1,15 +1,9 @@
 /* exhibit */
 
-#h1_exhibit {
+.h1_exhibit {
 	background: rgba(248, 246, 246, 0.6)
 		url(../images/resized/exhibit/exhibition.jpg);
-	background-position-y: 40%;
-	background-size: cover;
-	background-blend-mode: lighten;
-	align-self: center;
-	max-width: 100%;
-	margin: 0;
-	padding: 20px;
+	/* background-position-y: 40%; */
 }
 
 .category a,

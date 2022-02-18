@@ -1,0 +1,8 @@
+h1 {
+	background-image: url(../images/resized/events/ai.jpg);
+}
+
+.event_img {
+	max-height: 300px;
+	overflow: hidden;
+}

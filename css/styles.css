@@ -25,31 +25,51 @@ img {
 h1 {
 	font-family: "chillax";
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 	text-transform: capitalize;
 	background-color: rgba(248, 246, 246, 0.6);
 	background-size: cover;
 	background-blend-mode: lighten;
-	/* min-height: 100px; */
-	margin: 0;
+	margin: auto;
+	padding: 20px;
+	max-width: 500px;
 }
 
 h2 {
 	font-family: "chillax";
-	font: 25px;
+	font: 20px;
+	font-weight: 600;
 	text-transform: capitalize;
 }
 
+.cta {
+	text-decoration: none;
+	background-color: #008bc9;
+	color: white;
+	padding: 10px 20px;
+	margin: 0 auto;
+	border-radius: 20px;
+	text-transform: uppercase;
+	display: block;
+	max-width: max-content;
+}
+
+.cta:hover {
+	background-color: #096194;
+}
 hr {
+	margin: 20px 0;
 	color: var(--color_partition);
 }
+
 /* header */
 header {
 	background-color: var(--color_header);
 	display: flex;
 	min-height: 70px;
 	justify-content: flex-start;
+	margin-bottom: 10px;
 }
 
 .logo {
