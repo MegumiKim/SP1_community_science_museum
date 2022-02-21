@@ -10,18 +10,27 @@ body {
 }
 
 main {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: auto;
 }
 
 section {
-	margin: 5% 10% 5% 10%;
+	margin: 5% 10%;
+	border-bottom: solid 1px grey;
+	padding: 20px 0px;
 }
 
+.last {
+	border: none;
+}
 img {
 	max-width: 100%;
+	border-radius: 1em 1em 1em 1em;
 }
 
+.img_holder {
+	margin: auto;
+}
 h1 {
 	font-family: "chillax";
 	font-weight: bold;
@@ -43,6 +52,9 @@ h2 {
 	text-transform: capitalize;
 }
 
+h3 {
+	text-transform: capitalize;
+}
 .cta {
 	text-decoration: none;
 	background-color: #008bc9;
@@ -65,7 +77,7 @@ hr {
 
 /* header */
 header {
-	background-color: var(--color_header);
+	/* background-color: var(--color_header); */
 	display: flex;
 	min-height: 70px;
 	justify-content: flex-start;
@@ -97,12 +109,12 @@ nav,
 
 #hamburger-menu:checked ~ nav {
 	display: block;
-	background-color: var(--color_header);
+	background-color: white;
 	position: absolute;
 	right: 0;
-	top: 40px;
+	top: 50px;
 	z-index: 10;
-	padding: 0;
+	padding: 10px;
 }
 
 #hamburger-icon {
@@ -114,7 +126,7 @@ nav,
 
 nav a {
 	display: block;
-	color: black;
+	color: var(--color_h1);
 	padding: 5px 20px;
 	text-decoration: none;
 	right: 10px;
@@ -142,11 +154,12 @@ footer {
 	color: var(--color_grey);
 }
 
-footer h1 {
+.footer {
 	font-size: 20px;
 	font-weight: 400;
-	margin: 10px 0;
-	background-color: var(--color_header);
+	margin: 10px auto;
+	font-family: "chillax";
+	text-align: center;
 }
 
 .social-media {

@@ -17,7 +17,7 @@
 }
 
 .category i {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .category {
@@ -25,6 +25,10 @@
 	padding: 10px;
 	border-radius: 40px;
 	max-width: 200px;
+}
+
+.category:hover {
+	background-color: var(--color_yellow);
 }
 
 .exhibit_categories {
@@ -53,11 +57,9 @@
 	text-decoration: underline;
 }
 #cosmology {
-	margin: 10% 0 0 0;
-	padding: 10%;
-	background-image: url(../images/resized/exhibit/stars.jpg);
+	/* padding: 10%; */
 	border-radius: 7em 7em 0 0;
-	color: white;
+	color: var(--color_h1);
 }
 
 #cosmology h2 {
@@ -69,13 +71,17 @@
 	position: absolute;
 	left: 60%;
 }
+#evolution img {
+	float: right;
+}
 
+#evolution p {
+	float: left;
+}
 #biology {
 	margin: 10% 0;
 	padding: 10%;
-	color: white;
-	background-size: cover;
-	background-image: url(../images/resized/exhibit/medicine.jpg);
+	color: var(--color_h1);
 }
 
 #img_rob {

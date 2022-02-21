@@ -42,5 +42,31 @@
 		max-width: 600px;
 		background-size: 400px;
 		background-repeat: no-repeat;
+		min-height: 150px;
+	}
+
+	.exhibit_section {
+		display: flex;
+	}
+	.exhibit_section > * {
+		flex: 1;
+	}
+	.exhibit_text {
+		border: 1px solid grey;
+		padding: 10%;
+		margin: 0;
+	}
+
+	.access {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	/* events */
+	.event.one,
+	.event.two {
+		display: grid;
+		gap: 20px;
+		margin: auto;
 	}
 }
