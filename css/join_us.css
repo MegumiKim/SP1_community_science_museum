@@ -2,13 +2,13 @@ section {
 	border-bottom: solid 1px grey;
 	padding: 20px 0px;
 }
-.join_index {
+#join_index {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 10px;
 }
 
-.join_index a {
+#join_index a {
 	display: block;
 	text-decoration: none;
 	color: var(--color_h1);
@@ -21,6 +21,34 @@ section {
 	text-align: center;
 }
 
-.join_index a:hover {
+#join_index a:hover {
 	background-color: var(--color_yellow);
+}
+
+.img {
+	margin: 0;
+}
+
+.kids {
+	border-radius: 1em;
+	margin: 10px;
+	background-image: url(../images/resized/involved/kid.jpg);
+}
+.teacher {
+	background-image: url(../images/resized/involved/teacher.jpg);
+}
+
+.researcher {
+	background-image: url(../images/resized/involved/researcher.jpg);
+}
+
+.support {
+	background-image: url(../images/resized/involved/heart.jpg);
+}
+.volunteer {
+	background-image: url(../images/resized/involved/hands.jpg);
+}
+
+.internship {
+	background-image: url(../images/resized/involved/intern.jpg);
 }

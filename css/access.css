@@ -1,18 +1,25 @@
 .map {
 	max-width: 300px;
 	margin: auto;
+	display: block;
 }
 
+h2,
 section {
-	margin: 10px 50px;
-	padding: 0;
+	margin: 10px 10%;
+	padding: 0px 0 20px 0;
 }
 
+.access {
+	margin: auto;
+}
 .opening_hours {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	gap: 0px 10px;
 	max-width: 400px;
+	align-items: center;
+	margin: auto;
 }
 
 .opening_hours p {

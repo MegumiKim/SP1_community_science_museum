@@ -45,26 +45,27 @@
 	right: -300px;
 }
 
-.fa-solid.fa-angle-up.white {
-	color: white;
-}
-
-.fa-solid.fa-angle-up.black {
-	color: var(--color_h1);
-}
-
-.fa-solid.fa-angle-up:hover {
-	text-decoration: underline;
-}
 #cosmology {
 	/* padding: 10%; */
-	border-radius: 7em 7em 0 0;
 	color: var(--color_h1);
+}
+.cosmo {
+	background-color: aliceblue;
+	color: pink;
 }
 
 #cosmology h2 {
 	text-align: center;
 	margin-bottom: 10%;
+}
+
+#cosmology img {
+	height: 600px;
+	border-radius: 7em 7em 0 0;
+}
+#cosmology .img_holder {
+	border: 2px pink solid;
+	height: 200px;
 }
 
 #evolution h2 {

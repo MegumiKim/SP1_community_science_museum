@@ -1,0 +1,64 @@
+@import url(./exhibits.css);
+.info_board {
+	display: flex;
+	border: 5px var(--color_grey) solid;
+	padding-top: 20px;
+	border-radius: 2em;
+	max-width: 600px;
+	margin: auto;
+}
+
+.info_board div {
+	flex: 1;
+	text-align: center;
+}
+
+.join {
+	background-image: url(../images/resized/involved/pexels-anna-shvets-5029919.jpg);
+}
+
+/* img {
+	max-width: 200px;
+	margin: auto;
+} */
+
+.welcome {
+	/* color: var(--color_blue); */
+	font-size: 30px;
+}
+
+h2 {
+	text-align: center;
+}
+.event_img {
+	max-width: 300px;
+	max-height: 300px;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 0;
+}
+
+.event {
+	max-width: 300px;
+	margin: auto;
+}
+
+.event_h3 {
+	padding: 20px;
+	background-color: black;
+	z-index: 10;
+	color: white;
+	margin-top: 0;
+	border-radius: 0 0 1em 1em;
+}
+.event_h3:hover {
+	color: var(--color_yellow);
+}
+
+.date {
+	background-color: black;
+}
+
+.event_img.three {
+	max-height: 180px;
+}

@@ -28,9 +28,20 @@ img {
 	border-radius: 1em 1em 1em 1em;
 }
 
+.img_round {
+	min-height: 200px;
+	max-width: 200px;
+	background-size: cover;
+	border-radius: 50%;
+	background-position-y: center;
+	background-position-x: center;
+	margin: auto;
+}
+
 .img_holder {
 	margin: auto;
 }
+
 h1 {
 	font-family: "chillax";
 	font-weight: bold;
@@ -55,12 +66,15 @@ h2 {
 h3 {
 	text-transform: capitalize;
 }
+.p_big {
+	font-size: 1.3em;
+}
 .cta {
 	text-decoration: none;
 	background-color: #008bc9;
 	color: white;
 	padding: 10px 20px;
-	margin: 0 auto;
+	margin: 30px auto;
 	border-radius: 20px;
 	text-transform: uppercase;
 	display: block;
@@ -79,9 +93,10 @@ hr {
 header {
 	/* background-color: var(--color_header); */
 	display: flex;
-	min-height: 70px;
+	/* min-height: 70px; */
 	justify-content: flex-start;
 	margin-bottom: 10px;
+	padding: 10px;
 }
 
 .logo {
@@ -92,17 +107,19 @@ header {
 	font-weight: 500;
 	text-decoration: none;
 	color: #333;
-	position: absolute;
-	margin: 5px 20px;
+	align-self: center;
+	/* position: absolute;
+	margin: 5px 20px; */
 }
 
 .logo_img {
-	max-width: 30%;
+	max-width: 40%;
 	margin-right: 3px;
 }
 
 nav,
 #search,
+#search_box,
 #hamburger-menu {
 	display: none;
 }
@@ -115,6 +132,20 @@ nav,
 	top: 50px;
 	z-index: 10;
 	padding: 10px;
+}
+
+#search_box:checked ~ #search {
+	display: block;
+	min-height: 25px;
+	border-radius: 20em;
+	border-color: #333;
+	position: absolute;
+	right: 8%;
+	align-self: center;
+}
+
+#search_box:checked ~ nav {
+	display: none;
 }
 
 #hamburger-icon {
@@ -144,6 +175,10 @@ nav a:hover {
 	right: 70px;
 	align-self: center;
 }
+.back_button {
+	font-size: 40px;
+	margin-left: 10%;
+}
 
 .current_page {
 	text-decoration: underline;
@@ -165,4 +200,16 @@ footer {
 .social-media {
 	margin-top: 10px;
 	text-align: center;
+}
+
+.fa-solid.fa-angle-up.white {
+	color: white;
+}
+
+.fa-solid.fa-angle-up.black {
+	color: var(--color_h1);
+}
+
+.fa-solid.fa-angle-up:hover {
+	text-decoration: underline;
 }
