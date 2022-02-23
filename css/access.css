@@ -1,5 +1,5 @@
 .map {
-	max-width: 300px;
+	max-width: 250px;
 	margin: auto;
 	display: block;
 }
@@ -23,7 +23,7 @@ section {
 }
 
 .opening_hours p {
-	margin: 0;
+	margin: 5px;
 }
 
 .day {

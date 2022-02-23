@@ -1,4 +1,11 @@
 @import url(./exhibits.css);
+@import url(.join_us.css);
+
+.welcome_h1 {
+	text-transform: uppercase;
+	margin: 20px;
+}
+
 .info_board {
 	display: flex;
 	border: 5px var(--color_grey) solid;
@@ -11,45 +18,61 @@
 .info_board div {
 	flex: 1;
 	text-align: center;
+	margin: 0 10px;
 }
 
+.info_board i {
+	font-size: 30px;
+}
 .join {
 	background-image: url(../images/resized/involved/pexels-anna-shvets-5029919.jpg);
 }
 
 /* img {
-	max-width: 200px;
+	max-width: 300px;
 	margin: auto;
 } */
-
-.welcome {
-	/* color: var(--color_blue); */
-	font-size: 30px;
-}
 
 h2 {
 	text-align: center;
 }
-.event_img {
+/* .event_img {
 	max-width: 300px;
-	max-height: 300px;
+
 	overflow: hidden;
 	margin: auto;
 	margin-bottom: 0;
+} */
+
+.events {
+	display: grid;
+	grid-row: 1fr 1fr 1fr;
+	gap: 30px;
 }
 
+.img {
+	max-width: 100%;
+	max-height: 100%;
+}
 .event {
-	max-width: 300px;
-	margin: auto;
+	/* max-width: 300px; */
+	margin: 30px auto;
+	max-width: 400px;
+	max-height: 400px;
+	overflow: hidden;
 }
 
 .event_h3 {
+	max-width: 400px;
+	height: 200px;
 	padding: 20px;
 	background-color: black;
-	z-index: 10;
+	/* z-index: 10; */
 	color: white;
 	margin-top: 0;
 	border-radius: 0 0 1em 1em;
+	position: relative;
+	bottom: 300px;
 }
 .event_h3:hover {
 	color: var(--color_yellow);

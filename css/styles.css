@@ -69,6 +69,7 @@ h3 {
 .p_big {
 	font-size: 1.3em;
 }
+
 .cta {
 	text-decoration: none;
 	background-color: #008bc9;
@@ -164,6 +165,7 @@ nav a {
 	text-transform: capitalize;
 	font-family: "chillax";
 	font-weight: 500;
+	font-size: 25px;
 }
 
 nav a:hover {
