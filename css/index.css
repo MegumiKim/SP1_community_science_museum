@@ -24,9 +24,9 @@
 .info_board i {
 	font-size: 30px;
 }
-.join {
+/* .join {
 	background-image: url(../images/resized/involved/pexels-anna-shvets-5029919.jpg);
-}
+} */
 
 .img {
 	max-width: 300px;
@@ -64,4 +64,8 @@ img {
 .p_big {
 	margin: 0 auto;
 	margin-bottom: 20px;
+}
+
+.volunteer {
+	background-image: url(../images/resized/involved/hands.jpg);
 }
