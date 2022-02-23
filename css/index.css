@@ -1,5 +1,5 @@
 @import url(./exhibits.css);
-@import url(.join_us.css);
+@import url(./join_us.css);
 
 .welcome_h1 {
 	text-transform: uppercase;
@@ -24,9 +24,9 @@
 .info_board i {
 	font-size: 30px;
 }
-.join {
+/* .join {
 	background-image: url(../images/resized/involved/pexels-anna-shvets-5029919.jpg);
-}
+} */
 
 /* img {
 	max-width: 300px;
@@ -84,4 +84,8 @@ h2 {
 
 .event_img.three {
 	max-height: 180px;
+}
+
+.volunteer {
+	background-image: url(../images/resized/involved/hands.jpg);
 }
