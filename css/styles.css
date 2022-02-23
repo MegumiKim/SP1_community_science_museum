@@ -70,6 +70,11 @@ h3 {
 	font-size: 1.3em;
 }
 
+p {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
 .cta {
 	text-decoration: none;
 	background-color: #008bc9;
@@ -80,6 +85,7 @@ h3 {
 	text-transform: uppercase;
 	display: block;
 	max-width: max-content;
+	max-height: 30px;
 }
 
 .cta:hover {
