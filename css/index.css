@@ -69,3 +69,8 @@ img {
 .volunteer {
 	background-image: url(../images/resized/involved/hands.jpg);
 }
+
+.ver {
+	position: absolute;
+	clip: rect(0 0 0 100px);
+}
