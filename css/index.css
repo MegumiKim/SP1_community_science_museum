@@ -28,21 +28,16 @@
 	background-image: url(../images/resized/involved/pexels-anna-shvets-5029919.jpg);
 } */
 
-/* img {
+.img {
 	max-width: 300px;
-	margin: auto;
-} */
+	max-height: 300px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
 
 h2 {
 	text-align: center;
 }
-/* .event_img {
-	max-width: 300px;
-
-	overflow: hidden;
-	margin: auto;
-	margin-bottom: 0;
-} */
 
 .events {
 	display: grid;
@@ -50,40 +45,25 @@ h2 {
 	gap: 30px;
 }
 
+.event {
+	max-width: 300px;
+	margin: 0 auto;
+}
 .img {
+	max-width: 300px;
+}
+img {
 	max-width: 100%;
 	max-height: 100%;
 }
-.event {
-	/* max-width: 300px; */
-	margin: 30px auto;
-	max-width: 400px;
-	max-height: 400px;
-	overflow: hidden;
-}
 
-.event_h3 {
-	max-width: 400px;
-	height: 200px;
-	padding: 20px;
-	background-color: black;
-	/* z-index: 10; */
-	color: white;
-	margin-top: 0;
-	border-radius: 0 0 1em 1em;
-	position: relative;
-	bottom: 300px;
-}
-.event_h3:hover {
-	color: var(--color_yellow);
-}
+/* .ver {
+	max-height: 300px;
+} */
 
-.date {
-	background-color: black;
-}
-
-.event_img.three {
-	max-height: 180px;
+.p_big {
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .volunteer {
