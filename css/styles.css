@@ -15,9 +15,9 @@ main {
 }
 
 section {
-	margin: 5% 10%;
+	margin: 5% 5%;
 	border-bottom: solid 1px grey;
-	padding: 20px 0px;
+	/* padding: 20px 0px; */
 }
 
 .last {
@@ -70,6 +70,10 @@ h3 {
 	font-size: 1.3em;
 }
 
+P {
+	max-width: 600px;
+	margin: auto;
+}
 .cta {
 	text-decoration: none;
 	background-color: #008bc9;

@@ -3,16 +3,19 @@ h1 {
 }
 
 .event {
-	max-width: 700px;
-	/* margin: auto; */
+	max-width: 600px;
+	margin: 5% 10%;
 }
 .event_img {
 	max-width: 300px;
 	grid-column: 1;
-	grid-row: 1/6;
-	margin: auto;
+	grid-row: 1/5;
+	margin: auto auto;
 }
 
+h2 {
+	margin: 0;
+}
 h2,
 p,
 a {
@@ -20,5 +23,9 @@ a {
 }
 
 .event_img.three {
-	max-width: 80%;
+	max-width: 100%;
+}
+
+.date {
+	margin-left: 0;
 }

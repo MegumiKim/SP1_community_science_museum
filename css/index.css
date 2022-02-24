@@ -1,17 +1,24 @@
 @import url(./exhibits.css);
 @import url(./join_us.css);
 
+main {
+	padding: 0 10%;
+}
+#welcome {
+	display: grid;
+}
 .welcome_h1 {
 	text-transform: uppercase;
-	margin: 20px;
+	font-size: 2em;
+	/* margin: 20px; */
 }
 
 .info_board {
 	display: flex;
 	border: 5px var(--color_grey) solid;
-	padding-top: 20px;
+	padding: 20px;
 	border-radius: 2em;
-	max-width: 600px;
+	max-width: 500px;
 	margin: auto;
 }
 
@@ -22,57 +29,50 @@
 }
 
 .info_board i {
-	font-size: 30px;
+	font-size: 20px;
 }
-/* .join {
-	background-image: url(../images/resized/involved/pexels-anna-shvets-5029919.jpg);
-} */
 
-/* img {
+.info_board h3 {
+	align-self: baseline;
+	margin: 0;
+}
+.img {
 	max-width: 300px;
-	margin: auto;
-} */
+	margin: 0 auto;
+}
+
+.p_big {
+	margin: 0 auto 20px auto;
+}
+.event img {
+	border-radius: 1em 1em 0 0;
+}
 
 h2 {
 	text-align: center;
 }
-/* .event_img {
-	max-width: 300px;
-
-	overflow: hidden;
-	margin: auto;
-	margin-bottom: 0;
-} */
 
 .events {
 	display: grid;
-	grid-row: 1fr 1fr 1fr;
-	gap: 30px;
+	/* grid-row: 1fr 1fr 1fr;
+	gap: 30px; */
 }
 
-.img {
-	max-width: 100%;
-	max-height: 100%;
-}
 .event {
-	/* max-width: 300px; */
-	margin: 30px auto;
-	max-width: 400px;
-	max-height: 400px;
-	overflow: hidden;
+	margin: auto;
+	max-width: 300px;
 }
 
 .event_h3 {
 	max-width: 400px;
-	height: 200px;
+
 	padding: 20px;
 	background-color: black;
-	/* z-index: 10; */
 	color: white;
 	margin-top: 0;
 	border-radius: 0 0 1em 1em;
 	position: relative;
-	bottom: 300px;
+	bottom: 30px;
 }
 .event_h3:hover {
 	color: var(--color_yellow);
@@ -87,5 +87,26 @@ h2 {
 }
 
 .volunteer {
+	max-width: 200px;
+	max-height: 300px;
+	margin: 20px auto;
 	background-image: url(../images/resized/involved/hands.jpg);
+}
+
+#robot {
+	margin: 0 auto;
+	position: relative;
+	left: 35px;
+}
+
+#robot img {
+	z-index: 100;
+}
+#circle {
+	width: 400px;
+	height: 400px;
+	background-color: var(--color_yellow);
+	border-radius: 50%;
+	position: relative;
+	top: 300px;
 }
