@@ -32,18 +32,6 @@
 		min-height: 150px;
 	}
 
-	.exhibit_section {
-		display: flex;
-	}
-	.exhibit_section > * {
-		flex: 1;
-	}
-	.exhibit_text {
-		border: 1px solid grey;
-		padding: 10%;
-		margin: 0;
-	}
-
 	/* index */
 	#welcome {
 		display: grid;
@@ -94,10 +82,6 @@
 
 	/* access */
 
-	/* #admission {
-		grid-area: admission;
-	} */
-
 	#accessibility {
 		grid-row: 1;
 		grid-column: 2;
@@ -106,9 +90,7 @@
 	#opening_hours {
 		grid-column: 1;
 	}
-	/* #tours {
-		grid-row: 5;
-	} */
+
 	#location {
 		grid-column: 2;
 	}
@@ -117,6 +99,18 @@
 	}
 	#shop {
 		grid-column: 1;
+	}
+
+	/* exhibits */
+
+	#evolution {
+		position: relative;
+	}
+
+	#p_one {
+		max-width: 500px;
+		position: absolute;
+		bottom: 250px;
 	}
 }
 
