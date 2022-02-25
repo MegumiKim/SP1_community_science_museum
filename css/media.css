@@ -1,7 +1,18 @@
 @media (min-width: 800px) {
 	.access {
 		display: grid;
+		gap: 0 30px;
 		grid-template-columns: 1fr 1fr;
+	}
+
+	h1 {
+		font-size: 40px;
+		padding-left: 600px;
+		margin-top: 50px;
+		margin-right: 20px;
+		max-width: 800px;
+		background-size: 600px;
+		background-repeat: no-repeat;
 	}
 }
 
@@ -22,44 +33,64 @@
 		z-index: 10;
 	}
 
-	h1 {
-		font-size: 40px;
-		padding-left: 550px;
-		margin: 0;
-		max-width: 600px;
-		background-size: 400px;
-		background-repeat: no-repeat;
-		min-height: 150px;
-	}
-
 	/* index */
+
 	#welcome {
-		display: grid;
-		grid-template-columns: 3fr 2fr;
-		margin: 0;
-		min-height: 70vh;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px 50px;
 	}
 
-	#robot {
+	#robot_home {
 		grid-column: 1;
-		grid-row: 1/6;
+		grid-row: 1/4;
+	}
+
+	#welcome h1 {
+		grid-column: 2;
+		min-height: 30px;
+		margin: 20px auto;
 	}
 
 	.info_board {
 		grid-column: 2;
 	}
 
-	.welcome_h1 {
-		padding: 0;
-		min-height: 0;
+	.home {
+		grid-column: 2;
+		margin: 0 auto;
+	}
+
+	#events_home {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 3;
+		gap: 30px;
+	}
+
+	#events_home h2 {
+		grid-column: 1/4;
+	}
+	.grid_box {
+		display: grid;
+		gap: 30px;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 40px;
+	}
+	.grid_box p {
+		grid-column: 2;
+		margin-top: 0;
+	}
+
+	.grid_box .img {
+		grid-row: 1/3;
+		margin: auto;
 	}
 
 	/* events */
-	.event.one,
-	.event.two {
+	.event {
 		display: grid;
-		gap: 20px;
-		margin: auto;
+		gap: 20px 30px;
+		margin: 30px auto;
 	}
 
 	.join {
@@ -100,8 +131,17 @@
 	#shop {
 		grid-column: 1;
 	}
+	#robot {
+		grid-column: 2;
+		grid-row: 4;
+		margin-top: 15%;
+	}
 
 	/* exhibits */
+
+	.exhibit_categories {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 
 	#evolution {
 		position: relative;

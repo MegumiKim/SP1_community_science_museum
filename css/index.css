@@ -1,16 +1,15 @@
 @import url(./exhibits.css);
 @import url(./join_us.css);
 
-main {
-	padding: 0 10%;
-}
 #welcome {
 	display: grid;
+	margin: 0 auto;
 }
 .welcome_h1 {
+	background: none;
+	padding: 0;
 	text-transform: uppercase;
 	font-size: 2em;
-	/* margin: 20px; */
 }
 
 .info_board {
@@ -19,7 +18,7 @@ main {
 	padding: 20px;
 	border-radius: 2em;
 	max-width: 500px;
-	margin: auto;
+	margin: 0 auto 20px auto;
 }
 
 .info_board div {
@@ -35,33 +34,41 @@ main {
 .info_board h3 {
 	align-self: baseline;
 	margin: 0;
+	font-size: 1em;
 }
 .img {
-	max-width: 300px;
+	/* max-width: 300px; */
 	margin: 0 auto;
 }
 
-.p_big {
-	margin: 0 auto 20px auto;
+.img_round {
+	border-radius: 50%;
 }
+P,
+.p_big {
+	margin: 20px auto 0 auto;
+	max-width: 600px;
+}
+
 .event img {
 	border-radius: 1em 1em 0 0;
 }
 
+#museum_img {
+	max-width: 90%;
+}
 h2 {
 	text-align: center;
 }
 
-.events {
-	display: grid;
-	/* grid-row: 1fr 1fr 1fr;
-	gap: 30px; */
+.cta.event {
+	grid-column: 1/4;
 }
 
-.event {
+/* .event {
 	margin: auto;
 	max-width: 300px;
-}
+} */
 
 .event_h3 {
 	max-width: 400px;
@@ -93,20 +100,20 @@ h2 {
 	background-image: url(../images/resized/involved/hands.jpg);
 }
 
-#robot {
+#robot_home {
 	margin: 0 auto;
 	position: relative;
 	left: 35px;
 }
 
-#robot img {
+/* #robot img {
 	z-index: 100;
-}
-#circle {
+} */
+/* #circle {
 	width: 400px;
 	height: 400px;
 	background-color: var(--color_yellow);
 	border-radius: 50%;
 	position: relative;
 	top: 300px;
-}
+} */

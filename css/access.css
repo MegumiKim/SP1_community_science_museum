@@ -1,18 +1,20 @@
+h1 {
+	background-image: url(../images/resized/others/front.jpg);
+	background-position: 0 25%;
+}
+
+p {
+	margin-bottom: 5%;
+}
 .map {
 	max-width: 250px;
-	margin: auto;
+	margin: 0 auto 5% auto;
 	display: block;
 }
 
-h2,
-section {
-	margin: 10px 10%;
-	padding: 0px 0 20px 0;
-}
-
-.access {
+/* .access {
 	margin: auto;
-}
+} */
 .opening_hours {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
@@ -31,4 +33,9 @@ section {
 }
 .time {
 	text-align: center;
+}
+
+#rob {
+	max-width: 150px;
+	margin: auto;
 }
