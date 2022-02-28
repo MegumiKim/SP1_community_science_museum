@@ -5,9 +5,7 @@ h1 {
 }
 
 section {
-	border-bottom: 1px solid grey;
-	margin: 0 30px;
-	padding: 30px 0;
+	padding-top: 50px;
 }
 
 #section_two {
@@ -74,6 +72,7 @@ p {
 	padding: 10%;
 	background-repeat: no-repeat;
 	border: none;
+	margin-top: 70px;
 }
 
 .cosmo {
@@ -83,44 +82,64 @@ p {
 }
 
 #satellite {
-	max-width: 200px;
+	max-width: 30%;
 	transform: rotate(-60deg);
 	position: absolute;
-	right: 30px;
-	top: -20px;
+	right: 0px;
+	top: 0px;
 }
 /* evolution */
 
+#evolution {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+}
 #evolution h2 {
 	position: absolute;
+	top: 5%;
 	left: 60%;
 }
-#evolution img {
-	float: right;
-	margin-bottom: 30px;
+
+#p_one,
+#p_two {
+	max-width: 650px;
+	margin: 20px auto;
 }
 
 #biology {
-	/* margin: 10% 0;
-	padding: 10%; */
+	padding: 0;
 	color: var(--color_h1);
+	position: relative;
 }
 
-#robotics .img_holder {
-	/* margin: auto; */
-	max-width: 400px;
+#biology_img {
+	margin: auto;
 }
 
-#ecology {
-	padding: 10%;
-	color: white;
-	margin: 0;
-	background-size: cover;
-	background-image: url(../images/resized/exhibit/ecology.jpg);
-	background-position-x: center;
+#biology_img img {
+	border-radius: 0;
 }
 
-.eco_container {
-	background-color: rgb(5, 8, 22, 0.5);
-	padding: 5%;
+#biology p,
+#biology h2 {
+	padding: 5px 10%;
+}
+
+#micro {
+	max-width: 150px;
+	position: absolute;
+	right: 30px;
+	bottom: 40px;
+}
+
+#robotics {
+	position: relative;
+}
+#bob {
+	max-width: 200px;
+	position: absolute;
+	transform: scaleX(-1);
+	bottom: 0;
+	right: 80px;
 }

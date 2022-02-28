@@ -1,0 +1,40 @@
+h1 {
+	background-image: url(../images/resized/unused/back-to-school-ga8f68450f_1280.jpg);
+	background-position: 0 25%;
+}
+
+input {
+	display: block;
+	border-radius: 20em;
+	max-width: 100%;
+}
+
+.form__input {
+	display: block;
+	margin-bottom: 10px;
+	border-style: solid;
+	width: 70%;
+	min-height: 30px;
+	margin: auto;
+}
+label {
+	margin-left: 70px;
+}
+
+#message {
+	padding: 0;
+	min-height: 200px;
+}
+textarea {
+	min-height: 200px;
+	border-radius: 2em;
+	max-width: 100%;
+}
+
+form {
+	margin: auto;
+}
+fieldset {
+	margin: 0 auto;
+	border: none;
+}
