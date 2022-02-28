@@ -1,5 +1,6 @@
-h1 {
+.h1_box {
 	background-image: url(../images/resized/events/andrew-ruiz-348421.jpg);
+	background-position-y: 30%;
 }
 
 .event {

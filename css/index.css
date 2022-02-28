@@ -1,5 +1,15 @@
-@import url(./exhibits.css);
-@import url(./join_us.css);
+.background {
+	background-image: url(../images/resized/unused/back-to-school-ga8f68450f_1280.jpg);
+	min-height: 100vh;
+	width: 100%;
+	background-size: cover;
+	left: 0;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	opacity: 5%;
+	z-index: -1;
+}
 
 #welcome {
 	display: grid;
@@ -15,11 +25,12 @@
 
 .info_board {
 	display: flex;
-	border: 5px var(--color_grey) solid;
+	border: 5px var(--color_blue) solid;
 	padding: 20px;
 	border-radius: 2em;
 	max-width: 500px;
 	margin: 0 auto 20px auto;
+	background-color: white;
 }
 
 .info_board div {
@@ -52,9 +63,26 @@ P,
 }
 
 .event img {
-	border-radius: 1em 1em 0 0;
+	border-radius: 0;
+	height: 100%;
+	object-fit: cover;
 }
 
+.event {
+	border-radius: 2em;
+	overflow: hidden;
+	display: grid;
+	grid-template-rows: 3fr 2fr;
+	margin: 10% auto;
+	color: white;
+	background-color: var(--color_h1);
+	max-width: 350px;
+}
+
+#explore_img {
+	max-width: 350px;
+	margin: auto;
+}
 #museum_img {
 	max-width: 90%;
 }
@@ -62,42 +90,22 @@ h2 {
 	text-align: center;
 }
 
-.cta.event {
+#cta_event {
 	grid-column: 1/4;
 }
 
-/* .event {
-	margin: auto;
-	max-width: 300px;
-} */
-
 .event_h3 {
-	max-width: 400px;
-
-	padding: 20px;
-	background-color: black;
-	color: white;
-	margin-top: 0;
-	border-radius: 0 0 1em 1em;
-	position: relative;
-	bottom: 30px;
+	padding: 0 30px;
 }
-.event_h3:hover {
+
+.event_h3 a {
+	color: white;
+	text-decoration: none;
+}
+.event_h3 a:hover {
 	color: var(--color_yellow);
 }
 
-.date {
-	background-color: black;
-}
-
-.event_img.three {
-	max-height: 180px;
-}
-
-.exhibit_categories h3 {
-	grid-column: 1/4;
-	text-align: center;
-}
 .volunteer {
 	max-width: 200px;
 	max-height: 300px;

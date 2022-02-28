@@ -1,6 +1,17 @@
-h1 {
-	background-image: url(../images/resized/unused/back-to-school-ga8f68450f_1280.jpg);
+.h1_box {
+	background-image: url(../images/resized/others/lab-512503_1920.jpg);
 	background-position: 0 25%;
+}
+
+form {
+	margin: auto;
+	max-width: 500px;
+	padding: 0 10%;
+}
+fieldset {
+	margin: 0 auto;
+	border: none;
+	padding: auto;
 }
 
 input {
@@ -13,12 +24,9 @@ input {
 	display: block;
 	margin-bottom: 10px;
 	border-style: solid;
-	width: 70%;
+	width: 100%;
 	min-height: 30px;
-	margin: auto;
-}
-label {
-	margin-left: 70px;
+	/* margin: auto; */
 }
 
 #message {
@@ -29,12 +37,4 @@ textarea {
 	min-height: 200px;
 	border-radius: 2em;
 	max-width: 100%;
-}
-
-form {
-	margin: auto;
-}
-fieldset {
-	margin: 0 auto;
-	border: none;
 }

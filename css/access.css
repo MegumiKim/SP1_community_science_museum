@@ -1,6 +1,6 @@
-h1 {
+.h1_box {
 	background-image: url(../images/resized/others/front.jpg);
-	background-position: 0 25%;
+	background-position: 0 50%;
 }
 
 p {
@@ -35,7 +35,7 @@ p {
 	text-align: center;
 }
 
-#rob {
+#logo {
 	max-width: 150px;
 	margin: auto;
 }
