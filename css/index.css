@@ -95,8 +95,9 @@
 }
 
 .img_round {
-	border-radius: 50%;
+	background-image: url(/images/resized/involved/hands.jpg);
 }
+
 P,
 .p_big {
 	margin: 20px auto 0 auto;
