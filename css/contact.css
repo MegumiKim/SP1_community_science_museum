@@ -6,18 +6,48 @@
 form {
 	margin: auto;
 	max-width: 500px;
-	padding: 0 10%;
+	padding: 0;
 }
+
 fieldset {
 	margin: 0 auto;
 	border: none;
-	padding: auto;
 }
 
-input {
+input,
+textarea,
+option,
+.cselect select {
 	display: block;
 	border-radius: 20em;
-	max-width: 100%;
+	width: 100%;
+	border: 3px grey solid;
+	font-size: 1em;
+	background-color: var(--color_header);
+	height: 40px;
+	padding-left: 20px;
+}
+
+label {
+	padding-top: 20px;
+}
+
+.cselect select {
+	appearance: none;
+}
+
+.cselect::after {
+	content: "\25b6";
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	transform: rotate(90deg);
+}
+
+.cselect {
+	position: relative;
+}
+.cselect::after {
 }
 
 .form__input {
@@ -31,10 +61,11 @@ input {
 
 #message {
 	padding: 0;
+	border-radius: 2em;
 	min-height: 200px;
 }
-textarea {
-	min-height: 200px;
-	border-radius: 2em;
-	max-width: 100%;
+
+.cta.form {
+	border: none;
+	padding: auto;
 }

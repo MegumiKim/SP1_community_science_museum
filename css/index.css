@@ -8,19 +8,59 @@
 	position: fixed;
 	top: 0;
 	opacity: 5%;
-	z-index: -1;
+	z-index: -10;
 }
 
+.h1_box {
+	background-image: url(../images/resized/events/andrew-ruiz-348421.jpg);
+	background-position-y: 30%;
+}
 #welcome {
 	display: grid;
-	margin: 0 auto;
+	margin: 0 auto 5% auto;
 	max-width: none;
+	position: relative;
+	/* min-height: 70vh; */
+	max-width: 1000px;
 }
-.welcome_h1 {
+
+#welcome_h2 {
+	position: absolute;
+	right: -100%;
+	top: 5%;
 	background: none;
 	padding: 0;
 	text-transform: uppercase;
-	font-size: 2em;
+	animation: slide-in-right 2s forwards;
+	text-align: center;
+}
+
+#robot_home {
+	margin: auto;
+	position: relative;
+	left: -100%;
+	max-width: 250px;
+	z-index: 100;
+	animation: slide-in-left 2s forwards;
+}
+
+@keyframes slide-in-left {
+	100% {
+		left: 0;
+	}
+}
+@keyframes slide-in-right {
+	100% {
+		right: 10%;
+	}
+}
+#circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: var(--color_yellow);
+	position: absolute;
+	margin: 5%;
 }
 
 .info_board {
@@ -29,7 +69,7 @@
 	padding: 20px;
 	border-radius: 2em;
 	max-width: 500px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto;
 	background-color: white;
 }
 
@@ -48,6 +88,7 @@
 	margin: 0;
 	font-size: 1em;
 }
+
 .img {
 	/* max-width: 300px; */
 	margin: 0 auto;
@@ -112,21 +153,3 @@ h2 {
 	margin: 20px auto;
 	background-image: url(../images/resized/involved/hands.jpg);
 }
-
-#robot_home {
-	margin: 0 auto;
-	position: relative;
-	left: 35px;
-}
-
-/* #robot img {
-	z-index: 100;
-} */
-/* #circle {
-	width: 400px;
-	height: 400px;
-	background-color: var(--color_yellow);
-	border-radius: 50%;
-	position: relative;
-	top: 300px;
-} */

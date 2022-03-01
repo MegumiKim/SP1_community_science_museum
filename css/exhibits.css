@@ -6,8 +6,8 @@ main {
 }
 
 .h1_box {
-	background-image: url(../images/resized/exhibit/exhibition.jpg);
-	background-position-y: 40%;
+	background-image: url(../images/resized/unused/dinosaur-gbc43fe063_640.jpg);
+	background-position-y: 45%;
 }
 
 .exhibit_section:not(#cosmology) {
@@ -61,12 +61,20 @@ p {
 }
 
 #satellite {
-	max-width: 30%;
+	max-width: 0%;
 	transform: rotate(-60deg);
 	position: absolute;
-	right: 0px;
+	right: 0;
 	top: 0px;
+	animation: fly-in forwards 15s;
 }
+
+@keyframes fly-in {
+	100% {
+		max-width: 50%;
+	}
+}
+
 /* evolution */
 
 #evolution {
@@ -82,8 +90,7 @@ p {
 
 #p_one,
 #p_two {
-	max-width: 650px;
-	margin: 20px auto;
+	margin: 5% auto;
 }
 
 #biology {
@@ -92,33 +99,44 @@ p {
 	position: relative;
 }
 
-#biology_img {
-	margin: auto;
-}
-
-#biology_img img {
+.biology img {
 	border-radius: 0;
 }
 
+.biology {
+	max-height: 300px;
+	overflow-y: hidden;
+}
+
+#head img {
+	border-radius: 0;
+}
+#micro {
+	max-width: 100px;
+	margin: 20px auto;
+}
 #biology p,
 #biology h2 {
 	padding: 5px 10%;
 }
 
-#micro {
-	max-width: 150px;
-	position: absolute;
-	right: 30px;
-	bottom: 40px;
-}
-
 #robotics {
 	position: relative;
 }
-#bob {
+
+[aos="fade"] {
+	opacity: 0;
+	transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+	opacity: 1;
+}
+
+.bob {
 	max-width: 200px;
-	position: absolute;
+	float: right;
 	transform: scaleX(-1);
-	bottom: 0;
-	right: 80px;
+	margin: 20px auto;
+	position: relative;
 }

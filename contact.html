@@ -38,8 +38,13 @@
 				<a href="join_us.html">join us</a>
 				<a href="contact.html" class="current_page">contact</a>
 			</nav>
-			<label for="search" id="search_icon" class="fas fa-search"></label>
-			<input type="text" id="search" />
+			<div id="search_group">
+				<input type="checkbox" id="search_box" />
+				<label for="search_box" id="search_icon"
+					><i class="fas fa-search"></i
+				></label>
+				<input type="text" id="search" />
+			</div>
 		</header>
 		<main>
 			<div class="h1_box">
@@ -81,16 +86,21 @@
 						class="form__input"
 						required
 					/>
-					<input type="checkbox" id="sign-up" name="sign-up" class="checkbox" />
-					<label for="sign-up">Sign-up for news letter</label>
-					<section id="message" class="last" required>
-						<label for="message">MESSAGE</label>
-						<textarea
-							name="message"
-							id="message"
-							class="form__input"
-						></textarea>
-					</section>
+					<label for="dropdown">SUBJECT</label>
+					<div class="cselect">
+						<select name="subject" id="dropdown">
+							<option value="empty">Please select</option>
+							<option value="booking">Booking</option>
+							<option value="tour">Guided Tour</option>
+							<option value="holiday_club">Holiday Clubs</option>
+							<option value="support">Support/Collections Department</option>
+							<option value="volunteer">Volunteer/Internship</option>
+							<option value="other">Other inquiries</option>
+						</select>
+					</div>
+					<!-- <section id="message" class="last" required> -->
+					<label for="message">MESSAGE</label>
+					<textarea name="message" id="message" class="form__input"></textarea>
 					<input type="submit" value="send" name="message" class="cta form" />
 				</fieldset>
 			</form>
