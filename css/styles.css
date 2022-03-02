@@ -12,6 +12,7 @@ body {
 	min-height: 100vh;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
+	overflow-x: hidden;
 }
 
 p {
@@ -20,7 +21,6 @@ p {
 main {
 	max-width: 1000px;
 	margin: auto;
-	overflow-x: hidden;
 }
 
 section {
@@ -74,6 +74,7 @@ h1 {
 	text-transform: capitalize;
 	font-family: chillax, Geneva, Verdana, Tahoma, sans-serif;
 	font-size: 2em;
+	margin-left: 5%;
 }
 
 .back_button {
@@ -152,7 +153,7 @@ header {
 }
 
 .logo:hover {
-	font-weight: bold;
+	/* font-weight: bold; */
 	color: var(--color_blue);
 }
 
@@ -181,6 +182,7 @@ nav,
 	z-index: 10;
 	padding: 10px;
 	border-radius: 1em;
+	filter: drop-shadow(3px 3px 0 grey);
 }
 
 #search_icon:active ~ #search {
@@ -209,8 +211,9 @@ nav,
 	padding: 10px 10px;
 }
 
-#search_box:checked ~ nav a {
+#search_box:checked nav a {
 	display: none;
+	color: pink;
 }
 
 #hamburger-icon {
@@ -257,10 +260,11 @@ footer {
 	background-color: var(--color_header);
 	padding: 20px;
 	color: var(--color_grey);
+	max-width: 100%;
 }
 
 .footer {
-	font-size: 20px;
+	/* font-size: 20px; */
 	font-weight: 400;
 	margin: 0;
 	font-family: "chillax";

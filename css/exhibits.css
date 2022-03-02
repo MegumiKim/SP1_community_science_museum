@@ -3,7 +3,6 @@ main {
 	overflow: hidden;
 	max-width: none;
 	margin: 0;
-	font-size: 22px;
 }
 
 .h1_box {
@@ -79,10 +78,12 @@ p {
 /* evolution */
 
 #evolution {
-	display: flex;
+	margin-top: 5%;
+	/* display: flex; */
 	position: relative;
 	flex-direction: column;
 }
+
 #evolution h2 {
 	position: absolute;
 	top: 5%;

@@ -38,13 +38,20 @@
 				<a href="join_us.html">join us</a>
 				<a href="contact.html" class="current_page">contact</a>
 			</nav>
-			<div id="search_group">
-				<input type="checkbox" id="search_box" />
-				<label for="search_box" id="search_icon"
-					><i class="fas fa-search"></i
-				></label>
-				<input type="text" id="search" />
-			</div>
+			<div class="search">
+				<form action="#"  id="search_form">
+						<input type="text"
+								placeholder=" type key words"
+								name="search">
+				</form>
+				<button id="search_button">
+									<i class="fa fa-search"
+											style="font-size: 18px;">
+									</i>
+				</button>
+		</div>
+</div>
+	
 		</header>
 		<main>
 			<div class="h1_box">
@@ -55,10 +62,12 @@
 			</div>
 			<section class="contact_info grid_box">
 				<h2>community science museum</h2>
-				<div>
+				<div id="address_holder">
 					<p id="address">Bergen Street 1 <br />1234 Oslo<br />Norway</p>
-					<p>+47 1234 5678</p>
-					<p>contact@csm.no</p>
+					<div>
+						<p>+47 1234 5678</p>
+						<p>contact@csm.no</p>
+					</div>
 				</div>
 				<div class="img">
 					<img
@@ -67,43 +76,45 @@
 					/>
 				</div>
 			</section>
-			<form action="message.php" method="post">
-				<fieldset>
-					<h2>contact form</h2>
-					<label for="name">NAME</label>
-					<input
-						type="text"
-						id="name"
-						name="name"
-						class="form__input"
-						required
-					/>
-					<label for="email">EMAIL</label>
-					<input
-						type="text"
-						id="email"
-						name="email"
-						class="form__input"
-						required
-					/>
-					<label for="dropdown">SUBJECT</label>
-					<!-- <div class="cselect"> -->
-						<select name="subject" class="form__input" id="dropdown" required>
-							<option value="" disabled selected hidden>Select your option: </option>
-							<option value="booking">Booking</option>
-							<option value="tour">Guided Tour</option>
-							<option value="holiday_club">Holiday Clubs</option>
-							<option value="support">Support/Collections Department</option>
-							<option value="volunteer">Volunteer/Internship</option>
-							<option value="other">Other inquiries</option>
-						</select>
-					</div>
-					<!-- <section id="message" class="last" required> -->
-					<label for="message">MESSAGE</label>
-					<textarea name="message" id="message" class="form__input" required></textarea>
-					<input type="submit" value="send" name="message" class="cta form" />
-				</fieldset>
-			</form>
+			<section>
+				<form action="message.php" method="post">
+					<fieldset>
+						<h2>contact form</h2>
+						<label for="name">NAME</label>
+						<input
+							type="text"
+							id="name"
+							name="name"
+							class="form__input"
+							required
+						/>
+						<label for="email">EMAIL</label>
+						<input
+							type="text"
+							id="email"
+							name="email"
+							class="form__input"
+							required
+						/>
+						<label for="dropdown">SUBJECT</label>
+						<!-- <div class="cselect"> -->
+							<select name="subject" class="form__input" id="dropdown" required>
+								<option value="" disabled selected hidden>What is it about? </option>
+								<option value="booking">Booking</option>
+								<option value="tour">Guided Tour</option>
+								<option value="holiday_club">Holiday Clubs</option>
+								<option value="support">Support/Collections Department</option>
+								<option value="volunteer">Volunteer/Internship</option>
+								<option value="other">Other inquiries</option>
+							</select>
+						</div>
+						<!-- <section id="message" class="last" required> -->
+						<label for="message">MESSAGE</label>
+						<textarea name="message" id="message" class="form__input" required></textarea>
+						<input type="submit" value="send" name="message" class="cta form" />
+					</fieldset>
+				</form>
+			</sec>
 		</main>
 		<footer>
 			<p class="footer">community science museum</p>

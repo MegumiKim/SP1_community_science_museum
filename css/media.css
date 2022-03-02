@@ -208,18 +208,20 @@
 	}
 
 	#evolution {
-		display: flex;
+		/* display: flex; */
 		position: relative;
 		min-height: 550px;
 	}
+
 	#evolution h2 {
 		top: 80px;
 	}
 	#dino {
 		position: absolute;
-		/* float: right; */
+		float: right;
 		right: 0;
 		margin: 0;
+		/* float: right; */
 	}
 
 	#p_one {
