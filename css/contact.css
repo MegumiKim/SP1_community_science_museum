@@ -5,33 +5,51 @@
 
 form {
 	margin: auto;
-	max-width: 500px;
-	padding: 0;
+	max-width: 100%;
+	padding: 5% 10%;
 }
 
 fieldset {
+	max-width: 100%;
 	margin: 0 auto;
 	border: none;
 }
 
-input,
+/* input,
 textarea,
-option,
-.cselect select {
+option, */
+.form__input {
 	display: block;
 	border-radius: 20em;
 	width: 100%;
 	border: 3px grey solid;
 	font-size: 1em;
+	margin-bottom: 15px;
 	background-color: var(--color_header);
-	height: 40px;
-	padding-left: 20px;
+	/* padding-left: 20px; */
 }
+#dropdown {
+	padding-left: 10px;
+}
+/* 
+.form__input {
+	display: block;
+	margin-bottom: 10px;
+	border-style: solid;
+	max-width: 100%;
+	min-height: 30px;
+	margin: auto;
+} */
 
-label {
+form label {
 	padding-top: 20px;
 }
 
+select {
+	appearance: none;
+}
+
+/* 
 .cselect select {
 	appearance: none;
 }
@@ -46,18 +64,7 @@ label {
 
 .cselect {
 	position: relative;
-}
-.cselect::after {
-}
-
-.form__input {
-	display: block;
-	margin-bottom: 10px;
-	border-style: solid;
-	width: 100%;
-	min-height: 30px;
-	/* margin: auto; */
-}
+} */
 
 #message {
 	padding: 0;

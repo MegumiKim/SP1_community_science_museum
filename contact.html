@@ -87,9 +87,9 @@
 						required
 					/>
 					<label for="dropdown">SUBJECT</label>
-					<div class="cselect">
-						<select name="subject" id="dropdown">
-							<option value="empty">Please select</option>
+					<!-- <div class="cselect"> -->
+						<select name="subject" class="form__input" id="dropdown" required>
+							<option value="" disabled selected hidden>Select your option: </option>
 							<option value="booking">Booking</option>
 							<option value="tour">Guided Tour</option>
 							<option value="holiday_club">Holiday Clubs</option>
@@ -100,7 +100,7 @@
 					</div>
 					<!-- <section id="message" class="last" required> -->
 					<label for="message">MESSAGE</label>
-					<textarea name="message" id="message" class="form__input"></textarea>
+					<textarea name="message" id="message" class="form__input" required></textarea>
 					<input type="submit" value="send" name="message" class="cta form" />
 				</fieldset>
 			</form>

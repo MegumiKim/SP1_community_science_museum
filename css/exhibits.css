@@ -3,6 +3,7 @@ main {
 	overflow: hidden;
 	max-width: none;
 	margin: 0;
+	font-size: 22px;
 }
 
 .h1_box {

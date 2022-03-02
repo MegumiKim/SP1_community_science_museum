@@ -40,7 +40,7 @@
 	position: relative;
 	left: -100%;
 	max-width: 250px;
-	z-index: 100;
+	z-index: 2;
 	animation: slide-in-left 2s forwards;
 }
 
@@ -89,6 +89,10 @@
 	font-size: 1em;
 }
 
+.info_board p {
+	font-size: 0.8em;
+}
+
 .img {
 	/* max-width: 300px; */
 	margin: 0 auto;
@@ -101,34 +105,39 @@
 P,
 .p_big {
 	margin: 20px auto 0 auto;
-	max-width: 600px;
+	/* max-width: 600px; */
 }
 
 .event img {
-	border-radius: 0;
 	height: 100%;
-	object-fit: cover;
+	object-fit: fill;
 }
 
 .event {
 	border-radius: 2em;
-	overflow: hidden;
+	/* overflow: hidden; */
 	display: grid;
 	grid-template-rows: 3fr 2fr;
 	margin: 10% auto;
 	color: white;
 	background-color: var(--color_h1);
 	max-width: 350px;
+	max-height: 450px;
+}
+
+.date {
+	font-size: smaller;
 }
 
 #explore_img {
-	max-width: 350px;
+	max-width: 320px;
 	margin: auto;
 }
 #museum_img {
-	max-width: 90%;
+	max-width: 100%;
 }
 h2 {
+	font-size: 1.8em;
 	text-align: center;
 }
 
@@ -148,9 +157,25 @@ h2 {
 	color: var(--color_yellow);
 }
 
+#exh_spaces .p_big {
+	margin-top: 30px;
+}
+
+#about,
+.last {
+	max-width: 600px;
+}
+
+#about h2 {
+	padding: 0 10%;
+}
 .volunteer {
 	max-width: 200px;
 	max-height: 300px;
 	margin: 20px auto;
 	background-image: url(../images/resized/involved/hands.jpg);
+}
+
+.last .cta {
+	margin: 0 auto;
 }

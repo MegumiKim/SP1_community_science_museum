@@ -1,17 +1,22 @@
 @font-face {
 	font-family: "chillax";
-	src: url(../fonts/Chillax_Complete/Fonts/WEB/fonts/Chillax-Variable.woff2);
+	src: url(../fonts/Chillax_Complete/Fonts/Variable/Chillax-Variable.ttf);
 }
 
 /* global */
 body {
-	font: 20px poppins;
+	font-size: 18px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Sans Unicode",
+		Geneva, Verdana, sans-serif;
 	margin: 0;
 	min-height: 100vh;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 }
 
+p {
+	line-height: 1.6em;
+}
 main {
 	max-width: 1000px;
 	margin: auto;
@@ -66,7 +71,7 @@ h1 {
 	padding: 10px 30px;
 	border-radius: 1em;
 	text-transform: capitalize;
-	font-family: chillax;
+	font-family: chillax, Geneva, Verdana, Tahoma, sans-serif;
 	font-size: 2em;
 }
 
@@ -96,11 +101,12 @@ h2 {
 }
 
 h3 {
-	font-size: 1.1em;
+	font-size: 1.3em;
 	text-transform: capitalize;
 }
 .p_big {
-	font-size: 1.3em;
+	font-size: 1.2em;
+	margin-bottom: 5%;
 }
 
 .cta {
@@ -146,15 +152,11 @@ header {
 
 .logo:hover {
 	font-weight: bold;
+	color: var(--color_blue);
 }
 
 #search_icon:hover {
-	height: 10px;
-	width: 40px;
-	background-color: white;
-	border: 3px solid white;
-	border-radius: 50%;
-	filter: drop-shadow(5px 5px 0px grey);
+	filter: drop-shadow(2px 2px 0px grey);
 }
 
 .logo_img {
@@ -180,7 +182,7 @@ nav,
 	border-radius: 1em;
 }
 
-#search_box:checked ~ #search {
+#search_icon:active ~ #search {
 	display: block;
 	min-width: 100px;
 	min-height: 28px;
@@ -191,7 +193,6 @@ nav,
 	top: 3%;
 	align-self: center;
 	background-color: white;
-	z-index: -1;
 }
 
 #search_group {
@@ -199,6 +200,7 @@ nav,
 	position: absolute;
 	right: 15%;
 	align-self: center;
+	z-index: 22;
 }
 
 #search_icon {
@@ -215,6 +217,10 @@ nav,
 	position: absolute;
 	right: 8%;
 	align-self: center;
+}
+
+#hamburger-icon:hover {
+	filter: drop-shadow(2px 2px 0px grey);
 }
 
 nav a {
@@ -235,7 +241,7 @@ nav a:hover {
 	border: var(--color_yellow) 5px solid;
 	border-radius: 1em;
 	background-color: white;
-	filter: drop-shadow(5px 5px 0px grey);
+	filter: drop-shadow(3px 3px 0px grey);
 }
 
 .current_page {
@@ -283,7 +289,8 @@ footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
-	max-width: 100%;
+	max-width: 800px;
+	margin-top: 30px;
 }
 
 .exhibit_categories h3 {
@@ -292,19 +299,23 @@ footer {
 }
 .category a,
 .category i {
-	text-transform: uppercase;
 	text-decoration: none;
 	color: var(--color_grey);
 	text-align: center;
 	display: block;
-	margin: 10px;
 }
 
 .category i {
-	font-size: 30px;
+	margin-bottom: 10px;
+	font-size: 25px;
 }
 
 .category {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-transform: capitalize;
 	border: 3px solid var(--color_grey);
 	padding: 10px;
 	border-radius: 40px;
