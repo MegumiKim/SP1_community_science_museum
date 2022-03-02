@@ -1,4 +1,20 @@
 @media (min-width: 800px) {
+	.grid_box {
+		display: grid;
+		gap: 30px;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 40px;
+	}
+	.grid_box p {
+		grid-column: 2;
+		margin-top: 0;
+	}
+
+	.grid_box .img {
+		grid-row: 1/3;
+		margin: auto;
+	}
+
 	.access {
 		display: grid;
 		gap: 0 30px;
@@ -44,12 +60,45 @@
 		margin: 0 auto;
 	}
 
-	/* h1 {
-		left: unset;
-		right: 5%;
-		top: 40%;
-		transform: none;
-	} */
+	/* exhibits */
+	#biology {
+		padding: 5%;
+	}
+
+	#ecology h2,
+	#biology h2 {
+		grid-row: 1;
+		grid-column: 1/3;
+	}
+
+	#biology p,
+	#biology h2 {
+		padding: 0;
+	}
+
+	#ecology .img {
+		margin: 0 auto;
+	}
+
+	.img.eco {
+		grid-row: 2;
+		grid-column: 2;
+	}
+
+	.img.eco_two {
+		grid-column: 1;
+		grid-row: 3;
+	}
+
+	#p_eco,
+	#bio_p {
+		grid-column: 1;
+		margin: auto;
+	}
+
+	#micro {
+		max-width: 200px;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -76,21 +125,6 @@
 
 	#events_home h2 {
 		grid-column: 1/4;
-	}
-	.grid_box {
-		display: grid;
-		gap: 30px;
-		grid-template-columns: 1fr 1fr;
-		margin-bottom: 40px;
-	}
-	.grid_box p {
-		grid-column: 2;
-		margin-top: 0;
-	}
-
-	.grid_box .img {
-		grid-row: 1/3;
-		margin: auto;
 	}
 
 	/* events */
@@ -176,13 +210,52 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	/* h1 {
+	/* evolution */
+
+	#evolution {
+		/* display: flex; */
+		position: relative;
+		min-height: 550px;
+		padding: 5%;
+	}
+
+	#evolution h2 {
+		top: 80px;
+	}
+	#dino {
 		position: absolute;
-		top: 50%;
-		left: 50%;
-		text-align: center;
-		transform: translate(-50%, -50%);
-	} */
+		/* float: right; */
+		right: 0;
+		margin: 0;
+		float: right;
+	}
+
+	#mammoth {
+		position: absolute;
+		bottom: 20px;
+		left: -70px;
+		float: left;
+	}
+
+	#p_one {
+		position: absolute;
+		top: 200px;
+		left: 0;
+		max-width: 500px;
+	}
+
+	#p_two {
+		position: absolute;
+		top: 420px;
+		left: 150px;
+		max-width: 500px;
+	}
+
+	#evolution .arrow_up {
+		position: absolute;
+		left: 300px;
+		bottom: 20px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -207,74 +280,7 @@
 		display: none;
 	}
 
-	#evolution {
-		/* display: flex; */
-		position: relative;
-		min-height: 550px;
-	}
-
-	#evolution h2 {
-		top: 80px;
-	}
-	#dino {
-		position: absolute;
-		float: right;
-		right: 0;
-		margin: 0;
-		/* float: right; */
-	}
-
-	#p_one {
-		position: absolute;
-		top: 200px;
-		left: 0;
-		max-width: 500px;
-	}
-
-	#p_two {
-		position: absolute;
-		top: 400px;
-		max-width: 650px;
-		left: 0;
-	}
-
-	#evolution .arrow_up {
-		position: absolute;
-		left: 300px;
-		bottom: 20px;
-	}
-
-	#head {
+	/* #head {
 		max-width: 400px;
-	}
-
-	#ecology h2,
-	#biology h2 {
-		grid-row: 1;
-		grid-column: 1/3;
-	}
-
-	#biology p,
-	#biology h2 {
-		padding: 0;
-	}
-	.img.eco {
-		grid-row: 2;
-		grid-column: 2;
-	}
-
-	.img.eco_two {
-		grid-column: 1;
-		grid-row: 3;
-	}
-
-	#p_eco,
-	#bio_p {
-		grid-column: 1;
-		margin: auto;
-	}
-
-	#micro {
-		max-width: 50%;
-	}
+	} */
 }

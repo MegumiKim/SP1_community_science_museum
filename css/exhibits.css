@@ -90,6 +90,11 @@ p {
 	right: 10%;
 }
 
+#mammoth {
+	max-width: 200px;
+	margin: auto;
+}
+
 #p_one,
 #p_two {
 	margin: 5% auto;
@@ -113,10 +118,12 @@ p {
 #head img {
 	border-radius: 0;
 }
+
 #micro {
 	max-width: 100px;
 	margin: 20px auto;
 }
+
 #biology p,
 #biology h2 {
 	padding: 5px 10%;
@@ -126,19 +133,14 @@ p {
 	position: relative;
 }
 
-[aos="fade"] {
-	opacity: 0;
-	transition-property: opacity;
-}
-
-[aos="fade"].aos-animate {
-	opacity: 1;
-}
-
 .bob {
 	max-width: 200px;
 	float: right;
 	transform: scaleX(-1);
 	margin: 20px auto;
 	position: relative;
+}
+
+#ecology .img {
+	margin: 5% auto;
 }
