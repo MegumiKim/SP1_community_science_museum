@@ -25,24 +25,13 @@ p {
 	margin: 0;
 }
 
-/* #robotics {
+#robotics {
 	margin: auto;
-} */
+}
+
 .exhibit_text {
 	margin: 0 auto;
 	max-width: 600px;
-}
-
-.fa-angle-up {
-	font-size: 40px;
-	margin-top: 20px;
-	text-decoration: overline;
-}
-
-.up_button {
-	display: block;
-	text-align: center;
-	grid-column: 1/3;
 }
 
 /* cosmology */
@@ -138,12 +127,11 @@ p {
 	position: relative;
 }
 
-.bob {
+#bob {
 	max-width: 200px;
 	float: right;
 	transform: scaleX(-1);
-	margin: 20px auto;
-	position: relative;
+	margin: 10px auto;
 }
 
 #ecology .img {

@@ -40,7 +40,7 @@ h1 {
 }
 @keyframes slide-in-right {
 	100% {
-		right: 10%;
+		right: 8%;
 	}
 }
 
@@ -50,6 +50,7 @@ h1 {
 	border-radius: 50%;
 	background-color: var(--color_yellow);
 	position: absolute;
+	top: 8%;
 }
 
 .info_board {
