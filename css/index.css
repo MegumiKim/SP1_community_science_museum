@@ -1,16 +1,3 @@
-.background {
-	background-image: url(../images/resized/unused/back-to-school-ga8f68450f_1280.jpg);
-	min-height: 100vh;
-	width: 100%;
-	background-size: cover;
-	left: 0;
-	margin: 0;
-	position: fixed;
-	top: 0;
-	opacity: 5%;
-	z-index: -10;
-}
-
 .h1_box {
 	background-image: url(../images/resized/events/andrew-ruiz-348421.jpg);
 	background-position-y: 30%;
@@ -19,6 +6,7 @@
 h1 {
 	max-width: 400px;
 }
+
 #welcome {
 	margin: 0 5% 5% 5%;
 	position: relative;

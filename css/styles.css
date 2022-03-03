@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Chillax";
-	src: url(../fonts/Chillax_Complete/Fonts/Variable/Chillax-Variable.ttf);
+	src: url(../fonts/Chillax_Complete/Fonts/WEB/fonts/Chillax-Semibold.woff2);
 }
 
 /* global */
@@ -51,6 +51,19 @@ img {
 	margin: auto;
 }
 
+.background {
+	background-image: url(../images/resized/unused/back-to-school-ga8f68450f_1280.jpg);
+	min-height: 100vh;
+	width: 100%;
+	background-size: cover;
+	left: 0;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	opacity: 5%;
+	z-index: -10;
+}
+
 .h1_box {
 	width: 100vw;
 	margin: 0;
@@ -92,6 +105,18 @@ h1 {
 
 .back_button:hover {
 	border: solid 5px var(--color_blue);
+}
+
+.fa-angle-up {
+	font-size: 40px;
+	margin-top: 20px;
+	text-decoration: overline;
+}
+
+.up_button {
+	display: block;
+	text-align: center;
+	grid-column: 1/3;
 }
 
 h2 {
@@ -250,7 +275,7 @@ nav a:hover {
 }
 
 .contact_link {
-	color: red;
+	color: rgb(184, 3, 3);
 }
 
 footer {
