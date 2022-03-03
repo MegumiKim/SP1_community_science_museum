@@ -25,7 +25,7 @@ section {
 }
 
 #join_index a {
-	font-family: "chillax";
+	font-family: var(--font_h1);
 	font-weight: 500;
 	text-decoration: none;
 	color: var(--color_h1);

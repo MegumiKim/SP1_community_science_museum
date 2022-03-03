@@ -58,7 +58,6 @@
 	border-radius: 50%;
 	background-color: var(--color_yellow);
 	position: absolute;
-	/* margin: 5%; */
 }
 
 .info_board {
@@ -92,12 +91,8 @@
 	margin-top: 5px;
 }
 
-.img {
-	/* max-width: 300px; */
-	margin: 0 auto;
-}
-
 .img_round {
+	margin: auto;
 	background-image: url(/images/resized/involved/hands.jpg);
 }
 
@@ -122,9 +117,14 @@ P,
 	max-width: 300px;
 }
 
+.event_h3 h3 {
+	font-weight: unset;
+}
 .event_h3 {
+	margin: 10px auto;
 	padding: 0 30px;
 	font-size: 1rem;
+	font-family: unset;
 }
 
 .event_h3 a {
@@ -146,10 +146,6 @@ P,
 	max-width: 320px;
 	margin: auto;
 }
-
-/* #museum_img {
-	max-width: 100%;
-} */
 
 h2 {
 	font-size: 1.8em;
@@ -181,4 +177,5 @@ h2 {
 
 .last .cta {
 	margin: 0 auto;
+	grid-column: 1/3;
 }

@@ -4,15 +4,11 @@
 	background-position-x: 50%;
 }
 
-.event {
-	max-width: 800px;
-	margin: 5% auto;
-}
 .event_img {
 	max-width: 300px;
 	grid-column: 1;
 	grid-row: 1/5;
-	margin: auto auto;
+	margin: 10% auto;
 }
 
 h2 {
