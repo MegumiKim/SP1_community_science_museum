@@ -12,6 +12,7 @@ body {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	overflow-x: hidden;
+	color: var(--color_h1);
 }
 
 p {
@@ -38,6 +39,10 @@ img {
 	border-radius: 1em 1em 1em 1em;
 }
 
+.img {
+	margin: auto;
+}
+
 .img_round {
 	height: 200px;
 	width: 200px;
@@ -45,10 +50,6 @@ img {
 	border-radius: 50%;
 	background-position-y: center;
 	background-position-x: center;
-}
-
-.img {
-	margin: auto;
 }
 
 .background {
@@ -60,7 +61,7 @@ img {
 	margin: 0;
 	position: fixed;
 	top: 0;
-	opacity: 5%;
+	opacity: 3%;
 	z-index: -10;
 }
 
@@ -80,13 +81,15 @@ h1 {
 	bottom: 5%;
 	right: 5%;
 	text-align: center;
-	background-color: white;
+	background-color: none;
 	padding: 10px 30px;
-
 	text-transform: capitalize;
 	font-family: chillax, var(--font_family);
 	font-size: 2em;
 	margin-left: 5%;
+	border-radius: 0.5em;
+	background-color: rgba(250, 249, 246, 0.6);
+	/* max-width: 100%; */
 }
 
 .back_button {
@@ -125,6 +128,7 @@ h1 {
 
 .black {
 	color: var(--color_h1);
+	z-index: 10;
 }
 
 .fa-angle-up:hover {
@@ -161,6 +165,7 @@ h3 {
 	max-width: max-content;
 	max-height: fit-content;
 	font-family: var(--font_h1);
+	text-align: center;
 }
 
 .cta:hover {
@@ -173,6 +178,7 @@ header {
 	display: flex;
 	justify-content: flex-start;
 	padding: 10px;
+	/* background-color: var(--color_header); */
 }
 
 .logo {
@@ -182,7 +188,7 @@ header {
 	font-family: var(--font_h1);
 	font-weight: 500;
 	text-decoration: none;
-	color: #333;
+	color: var(--color_blue);
 	align-self: center;
 	margin: 5px 20px;
 }
@@ -192,7 +198,8 @@ header {
 }
 
 #search_icon:hover {
-	filter: drop-shadow(2px 2px 0px grey);
+	/* filter: drop-shadow(2px 2px 0px grey); */
+	font-size: 1.3em;
 }
 
 .logo_img {
@@ -227,7 +234,8 @@ nav,
 }
 
 #hamburger-icon:hover {
-	filter: drop-shadow(2px 2px 0px grey);
+	/* filter: drop-shadow(2px 2px 0px grey); */
+	font-size: 1.2em;
 }
 
 #search_container {

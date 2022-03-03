@@ -121,6 +121,10 @@
 		grid-column: 1/4;
 	}
 
+	.last.cta {
+		margin: 0 auto;
+	}
+
 	/* events */
 
 	.event_img {
@@ -201,14 +205,12 @@
 		position: absolute;
 		right: -100px;
 		margin: 0;
-		/* float: right; */
 	}
 
 	#mammoth {
 		position: absolute;
 		top: 450px;
 		left: -70px;
-		/* float: left; */
 	}
 
 	#p_one {
@@ -225,9 +227,13 @@
 		max-width: 500px;
 	}
 
-	/* }
+	#search_container {
+		right: 12%;
+		top: 60px;
+	}
+}
 
-@media (min-width: 1200px) { */
+@media (min-width: 1200px) {
 	nav {
 		position: absolute;
 		right: 12%;
@@ -238,7 +244,7 @@
 	}
 
 	nav a {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 
 	#hamburger-icon {
@@ -247,6 +253,5 @@
 
 	#search_container {
 		right: 8%;
-		top: 60px;
 	}
 }
