@@ -6,8 +6,7 @@
 /* global */
 body {
 	font-size: 18px;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Sans Unicode",
-		Geneva, Verdana, sans-serif;
+	font-family: var(--font_family);
 	margin: 0;
 	min-height: 100vh;
 	display: grid;
@@ -45,7 +44,6 @@ img {
 	border-radius: 50%;
 	background-position-y: center;
 	background-position-x: center;
-	/* margin: auto; */
 }
 
 .img_holder {
@@ -54,7 +52,7 @@ img {
 
 .h1_box {
 	width: 100vw;
-	margin: 0 auto;
+	margin: 0;
 	background-size: cover;
 	min-height: 50vh;
 	background-repeat: no-repeat;
@@ -70,9 +68,9 @@ h1 {
 	text-align: center;
 	background-color: white;
 	padding: 10px 30px;
-	border-radius: 1em;
+	/* border-radius: 1em; */
 	text-transform: capitalize;
-	font-family: chillax, Geneva, Verdana, Tahoma, sans-serif;
+	font-family: chillax, var(--font_family);
 	font-size: 2em;
 	margin-left: 5%;
 }
@@ -96,7 +94,7 @@ h1 {
 	border: solid 5px var(--color_blue);
 }
 h2 {
-	font-family: "chillax";
+	font-family: "chillax", var(--font_family);
 	font-size: 1.5em;
 	font-weight: 600;
 	text-transform: capitalize;
@@ -115,7 +113,7 @@ h3 {
 	text-decoration: none;
 	background-color: #008bc9;
 	color: white;
-	padding: 2% 5%;
+	padding: 10px 20px;
 	margin: 30px auto;
 	border-radius: 20px;
 	text-transform: uppercase;
@@ -128,10 +126,6 @@ h3 {
 	background-color: #094a68;
 	color: white;
 }
-/* hr {
-	margin: 20px 0;
-	color: var(--color_partition);
-} */
 
 /* header */
 header {
@@ -185,37 +179,6 @@ nav,
 	filter: drop-shadow(3px 3px 0 grey);
 }
 
-#search_icon:active ~ #search {
-	display: block;
-	min-width: 100px;
-	min-height: 28px;
-	border-radius: 20em;
-	border-color: #333;
-	position: absolute;
-	right: 0;
-	top: 3%;
-	align-self: center;
-	background-color: white;
-}
-
-#search_group {
-	display: block;
-	position: absolute;
-	right: 15%;
-	align-self: center;
-	z-index: 22;
-}
-
-#search_icon {
-	z-index: 100;
-	padding: 10px 10px;
-}
-
-#search_box:checked nav a {
-	display: none;
-	color: pink;
-}
-
 #hamburger-icon {
 	order: 2;
 	position: absolute;
@@ -225,6 +188,37 @@ nav,
 
 #hamburger-icon:hover {
 	filter: drop-shadow(2px 2px 0px grey);
+}
+
+#search_container {
+	display: flex;
+	position: absolute;
+	right: 13%;
+	align-self: center;
+	z-index: 10;
+	align-items: flex-start;
+	top: 30px;
+}
+
+#search_icon {
+	z-index: 100;
+	padding: 10px 10px;
+	position: absolute;
+	right: 0;
+	padding: 5px 10px;
+}
+
+#search_box:checked ~ nav a {
+	display: none;
+}
+
+#search_box:checked ~ #search {
+	display: block;
+	min-width: 100px;
+	min-height: 28px;
+	border-radius: 20em;
+	border-color: #333;
+	background-color: white;
 }
 
 nav a {
@@ -264,10 +258,9 @@ footer {
 }
 
 .footer {
-	/* font-size: 20px; */
 	font-weight: 400;
 	margin: 0;
-	font-family: "chillax";
+	font-family: "chillax" var(--font_family);
 	text-align: center;
 }
 
@@ -276,16 +269,16 @@ footer {
 	text-align: center;
 }
 
-.fa-solid.fa-angle-up.white {
+.white {
 	color: white;
 }
 
-.fa-solid.fa-angle-up.black {
+.black {
 	color: var(--color_h1);
 }
 
-.fa-solid.fa-angle-up:hover {
-	text-decoration: underline;
+.fa-angle-up:hover {
+	color: var(--color_yellow);
 }
 
 /* exhibit categories */
