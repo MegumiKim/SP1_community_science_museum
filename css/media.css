@@ -52,8 +52,8 @@
 		position: absolute;
 		max-width: 50%;
 		right: 0;
-		bottom: 200px;
-		padding: 10px 0;
+		bottom: 250px;
+		padding: 10px 0 0 0;
 	}
 
 	/* exhibits */
@@ -102,6 +102,11 @@
 		max-width: 300px;
 		font-size: 1.5em;
 		margin: 10px 30px;
+	}
+
+	#search_container {
+		right: 12%;
+		top: 60px;
 	}
 
 	main {
@@ -227,9 +232,12 @@
 		max-width: 500px;
 	}
 
-	#search_container {
-		right: 12%;
-		top: 60px;
+	#evolution .up_button {
+		display: unset;
+		position: absolute;
+		bottom: 20px;
+		right: 0;
+		left: 0;
 	}
 }
 

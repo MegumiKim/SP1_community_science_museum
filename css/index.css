@@ -5,6 +5,7 @@
 
 h1 {
 	max-width: 400px;
+
 	background-color: rgb(5, 8, 22, 0.5);
 	color: white;
 }
@@ -24,6 +25,7 @@ h1 {
 	animation: slide-in-right 2s forwards;
 	text-align: center;
 	font-size: 1.2em;
+	font-style: italic;
 }
 
 #robot_home {
@@ -62,6 +64,7 @@ h1 {
 	max-width: fit-content;
 	margin: 0 auto;
 	background-color: white;
+	color: var(--color_h1);
 }
 
 .info_board div {
@@ -118,7 +121,6 @@ P,
 	margin: 10px auto;
 	padding: 30px;
 	font-size: 1rem;
-	font-family: unset;
 }
 
 .event_h3 a {
@@ -126,6 +128,10 @@ P,
 	text-decoration: none;
 }
 
+.event_h3 h3 {
+	/* font-family: unset; */
+	font-weight: 500;
+}
 .event_h3 a:hover {
 	color: var(--color_yellow);
 }

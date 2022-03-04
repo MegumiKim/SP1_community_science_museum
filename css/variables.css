@@ -3,8 +3,9 @@
 	--color_h1: #333;
 	--color_grey: #707070;
 	--color_yellow: #f2e635;
-	--color_blue: #0586bf;
+	--color_blue: #007db8;
 	--font_family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	--font_h1: "Chillax";
+	--color_back: rgb(235, 250, 250);
 }

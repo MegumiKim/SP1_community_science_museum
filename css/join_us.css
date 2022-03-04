@@ -26,19 +26,19 @@ section {
 
 #join_index a {
 	font-family: var(--font_h1);
-	font-weight: 500;
 	text-decoration: none;
 	color: var(--color_h1);
 	text-transform: capitalize;
 	font-size: 20px;
-	border: 3px solid grey;
+	border: 3px solid var(--color_grey);
+	background-color: var(--color_back);
+	color: var(--color_grey);
 	border-radius: 2em;
 	padding: 10px 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	background-color: white;
 }
 
 #join_index a:hover {
