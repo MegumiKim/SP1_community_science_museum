@@ -206,25 +206,26 @@
 		max-width: 100%;
 		position: absolute;
 		right: -100px;
+		bottom: 150px;
 		margin: 0;
 	}
 
 	#mammoth {
 		position: absolute;
-		top: 470px;
-		left: -30px;
+		bottom: 150px;
+		left: -10px;
 	}
 
 	#p_one {
 		position: absolute;
-		top: 200px;
+		bottom: 300px;
 		left: 0;
 		max-width: 500px;
 	}
 
 	#p_two {
 		position: absolute;
-		top: 420px;
+		bottom: 100px;
 		left: 150px;
 		max-width: 500px;
 	}
