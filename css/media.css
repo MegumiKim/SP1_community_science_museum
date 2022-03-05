@@ -57,9 +57,6 @@
 	}
 
 	/* exhibits */
-	#biology {
-		padding: 5%;
-	}
 
 	#ecology h2,
 	#biology h2 {
@@ -98,6 +95,11 @@
 		max-width: 300px;
 		font-size: 1.5em;
 		margin: 10px 30px;
+	}
+
+	.back_button {
+		top: 200px;
+		left: 70px;
 	}
 
 	#search_container {
@@ -238,6 +240,10 @@
 		left: 0;
 	}
 
+	#robotics {
+		padding-bottom: 0;
+	}
+
 	#robotics .img {
 		float: left;
 		margin-right: 30px;
@@ -255,7 +261,7 @@
 	}
 
 	nav a {
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 
 	#hamburger-icon {

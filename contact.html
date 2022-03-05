@@ -19,42 +19,40 @@
 		<title>Contact | Community Science Museum</title>
 	</head>
 	<body>
-		<header>
-			<a href="index.html" class="logo"
-				><img
-					src="../images/others/logo.svg"
-					class="logo_img"
-					alt="logo of Community Science Museum"
-				/>Community Science Museum</a
-			>
-			<input type="checkbox" id="hamburger-menu" />
-			<label for="hamburger-menu" id="hamburger-icon"
-				><i class="fas fa-bars"></i
-			></label>
-			<nav>
-				<a href="access.html">Access</a>
-				<a href="events.html">event</a>
-				<a href="exhibits.html">exhibitions</a>
-				<a href="join_us.html">join us</a>
-				<a href="contact.html" class="current_page">contact</a>
-			</nav>
-			<div id="search_container">
-				<input type="checkbox" id="search_box" />
-				<label for="search_box" id="search_icon"
-					><i class="fas fa-search"></i
+		<div class="h1_box">
+			<header>
+				<a href="index.html" class="logo"
+					><img
+						src="/images/others/logo.svg"
+						class="logo_img"
+						alt="logo of Community Science Museum"
+					/>Community Science Museum</a
+				>
+				<input type="checkbox" id="hamburger-menu" />
+				<label for="hamburger-menu" id="hamburger-icon"
+					><i class="fas fa-bars"></i
 				></label>
-				<input type="text" id="search" />
-			</div>
-</div>
-	
-		</header>
+				<nav>
+					<a href="access.html">Access</a>
+					<a href="events.html">event</a>
+					<a href="exhibits.html">exhibitions</a>
+					<a href="join_us.html">join us</a>
+					<a href="contact.html" class="current_page">contact</a>
+				</nav>
+				<div id="search_container">
+					<input type="checkbox" id="search_box" />
+					<label for="search_box" id="search_icon"
+						><i class="fas fa-search"></i
+					></label>
+					<input type="text" id="search" />
+				</div>
+			</header>
+			<a href="index.html"
+				><i class="fa-solid fa-angle-left back_button"></i
+			></a>
+			<h1>contact us</h1>
+		</div>
 		<main>
-			<div class="h1_box">
-				<a href="index.html"
-					><i class="fa-solid fa-angle-left back_button"></i
-				></a>
-				<h1>contact us</h1>
-			</div>
 			<div class="background"></div>
 			<section class="contact_info grid_box">
 				<h2>community science museum</h2>
@@ -93,17 +91,24 @@
 							required
 						/>
 						<label for="dropdown">SUBJECT</label>
-							<select name="subject" class="form__input" id="dropdown" required>
-								<option value="" disabled selected hidden>What is it about? </option>
-								<option value="booking">Booking</option>
-								<option value="tour">Guided Tour</option>
-								<option value="holiday_club">Holiday Clubs</option>
-								<option value="support">Support/Collections Department</option>
-								<option value="volunteer">Volunteer/Internship</option>
-								<option value="other">Other inquiries</option>
-							</select>
+						<select name="subject" class="form__input" id="dropdown" required>
+							<option value="" disabled selected hidden>
+								What is it about?
+							</option>
+							<option value="booking">Booking</option>
+							<option value="tour">Guided Tour</option>
+							<option value="holiday_club">Holiday Clubs</option>
+							<option value="support">Support/Collections Department</option>
+							<option value="volunteer">Volunteer/Internship</option>
+							<option value="other">Other inquiries</option>
+						</select>
 						<label for="message">MESSAGE</label>
-						<textarea name="message" id="message" class="form__input" required></textarea>
+						<textarea
+							name="message"
+							id="message"
+							class="form__input"
+							required
+						></textarea>
 						<input type="submit" value="send" name="message" class="cta form" />
 					</fieldset>
 				</form>

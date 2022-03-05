@@ -1,16 +1,11 @@
 /* exhibit */
 main {
-	/* overflow: hidden; */
 	max-width: none;
-	/* margin: 0; */
+	margin: 0;
 }
 
 #ecology .img {
-	max-width: 300px;
-}
-
-#ecology .img {
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 section .img {
@@ -19,7 +14,7 @@ section .img {
 
 .h1_box {
 	background-image: url(../images/unused/dinosaur-gbc43fe063_640.jpg);
-	background-position-y: 45%;
+	background-position-y: 30%;
 }
 
 .exhibit_section:not(#cosmology) {
@@ -46,7 +41,7 @@ p {
 /* cosmology */
 
 #cosmology {
-	max-width: 100%;
+	max-width: unset;
 	margin: 0;
 	color: white;
 	position: relative;
@@ -90,7 +85,7 @@ p {
 
 #evolution h2 {
 	position: absolute;
-	top: 0%;
+	top: 20px;
 	right: 10%;
 }
 
@@ -141,7 +136,3 @@ p {
 	content: "";
 	display: table;
 }
-
-/* #ecology .img {
-	margin: 5% auto;
-} */

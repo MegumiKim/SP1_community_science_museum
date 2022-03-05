@@ -89,16 +89,15 @@ h1 {
 	font-size: 2em;
 	margin-left: 5%;
 	border-radius: 0.5em;
-	background-color: rgba(250, 249, 246, 0.6);
-	/* max-width: 100%; */
+	background-color: var(--background);
 }
 
 .back_button {
 	font-size: 40px;
 	position: absolute;
-	left: 3%;
-	top: 5%;
-	background-color: white;
+	left: 30px;
+	top: 130px;
+	background-color: var(--background);
 	padding: 10px;
 	border-radius: 50%;
 	color: var(--color_h1);
@@ -172,7 +171,7 @@ header {
 	display: flex;
 	justify-content: flex-start;
 	padding: 10px;
-	/* background-color: var(--color_header); */
+	background-color: rgba(250, 249, 246, 0.6);
 }
 
 .logo {
@@ -193,7 +192,7 @@ header {
 
 #search_icon:hover {
 	/* filter: drop-shadow(2px 2px 0px grey); */
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 .logo_img {
@@ -225,6 +224,7 @@ nav,
 	position: absolute;
 	right: 8%;
 	align-self: center;
+	font-size: 1.3em;
 }
 
 #hamburger-icon:hover {
@@ -244,10 +244,10 @@ nav,
 
 #search_icon {
 	z-index: 100;
-	padding: 10px 10px;
+	padding: 2px 10px;
 	position: absolute;
 	right: 0;
-	padding: 5px 10px;
+	font-size: 1.3em;
 }
 
 #search_box:checked ~ nav a {
@@ -293,9 +293,9 @@ nav a:hover {
 }
 
 footer {
-	background-color: var(--color_header);
+	background-color: #abdcfa;
 	padding: 20px;
-	color: var(--color_grey);
+	color: #333;
 	max-width: 100%;
 }
 
