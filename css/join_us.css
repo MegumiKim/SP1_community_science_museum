@@ -1,16 +1,10 @@
 .h1_box {
-	background-image: url(../images/resized/involved/learn-2405206_1920.jpg);
+	background-image: url(../images/involved/learn-2405206_1920.jpg);
 }
 
 h1 {
 	/* left: unset; */
 	right: 10%;
-}
-
-section {
-	border-bottom: solid 1px grey;
-	padding-bottom: 5%;
-	margin: 0 auto 5% auto;
 }
 
 #join_index {
@@ -27,22 +21,23 @@ section {
 #join_index a {
 	font-family: var(--font_h1);
 	text-decoration: none;
-	color: var(--color_h1);
 	text-transform: capitalize;
 	font-size: 20px;
-	border: 3px solid var(--color_grey);
-	background-color: var(--color_back);
-	color: var(--color_grey);
+	border: 5px solid var(--color_blue);
+	background-color: white;
+	color: var(--font_h1);
 	border-radius: 2em;
 	padding: 10px 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	font-weight: 500;
 }
 
 #join_index a:hover {
-	background-color: var(--color_yellow);
+	background-color: var(--color_blue);
+	color: white;
 }
 
 .float_right {
@@ -57,33 +52,33 @@ section {
 
 .kids {
 	border-radius: 1em;
-	background-image: url(../images/resized/involved/kid.jpg);
+	background-image: url(../images/involved/kid.jpg);
 }
 
 .kids_two {
 	border-radius: 1em;
-	background-image: url(../images/resized/unused/binoculars-2028304.svg);
+	background-image: url(../images/unused/binoculars-2028304.svg);
 }
 
 .teacher {
 	float: left;
-	background-image: url(../images/resized/involved/teacher.jpg);
+	background-image: url(../images/involved/teacher.jpg);
 }
 
 .researcher {
 	float: right;
-	background-image: url(../images/resized/involved/researcher.jpg);
+	background-image: url(../images/involved/researcher.jpg);
 }
 
 .support {
-	background-image: url(../images/resized/involved/heart.jpg);
+	background-image: url(../images/involved/heart.jpg);
 }
 .volunteer {
-	background-image: url(../images/resized/involved/hands.jpg);
+	background-image: url(../images/involved/hands.jpg);
 }
 
 .internship {
-	background-image: url(../images/resized/involved/intern.jpg);
+	background-image: url(../images/involved/intern.jpg);
 }
 
 h2 {

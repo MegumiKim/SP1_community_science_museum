@@ -35,6 +35,7 @@ section {
 }
 
 img {
+	/* margin: auto; */
 	max-width: 100%;
 	border-radius: 1em 1em 1em 1em;
 }
@@ -53,7 +54,7 @@ img {
 }
 
 .background {
-	background-image: url(../images/resized/unused/back-to-school-ga8f68450f_1280.jpg);
+	background-image: url(../images/others/background.jpg);
 	min-height: 100vh;
 	width: 100%;
 	background-size: cover;
@@ -110,31 +111,23 @@ h1 {
 	border: solid 5px var(--color_blue);
 }
 
-.fa-angle-up {
-	font-size: 40px;
-	margin-top: 20px;
-	text-decoration: overline;
-}
-
 .up_button {
+	color: var(--color_h1);
 	display: block;
 	text-align: center;
 	grid-column: 1/3;
+	text-decoration: overline;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.fa-angle-up {
+	text-decoration: overline;
 }
 
 .white {
 	color: white;
 }
-
-.black {
-	color: var(--color_h1);
-	z-index: 10;
-}
-
-.fa-angle-up:hover {
-	color: var(--color_blue);
-}
-
 h2 {
 	font-family: var(--font_h1);
 	font-size: 1.5em;
