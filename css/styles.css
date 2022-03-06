@@ -69,7 +69,7 @@ img {
 .h1_box {
 	margin: 0;
 	background-size: cover;
-	min-height: 50vh;
+	min-height: 60vh;
 	background-repeat: no-repeat;
 	position: relative;
 	/* width: 100vw; */
