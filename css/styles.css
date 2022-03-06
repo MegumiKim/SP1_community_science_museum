@@ -187,7 +187,7 @@ header {
 }
 
 .logo:hover {
-	color: var(--color_blue);
+	font-weight: bold;
 }
 
 #search_icon:hover {
