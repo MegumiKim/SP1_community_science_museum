@@ -71,7 +71,7 @@ img {
 	background-size: cover;
 	min-height: 50vh;
 	background-repeat: no-repeat;
-	/* position: relative; */
+	position: relative;
 	/* width: 100vw; */
 	/* left: 50%;
 	transform: translateX(-50%); */
