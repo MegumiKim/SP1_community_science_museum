@@ -11,7 +11,7 @@ Designing a website for a local science museum, using HTML/CSS.
  
 ## Built with
  - HTML
- -CSS
+ - CSS
  
 ## Sources
 
