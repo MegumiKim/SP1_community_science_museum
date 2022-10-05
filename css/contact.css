@@ -29,18 +29,23 @@ fieldset {
 /* input,
 textarea,
 option, */
+textarea,
+select,
 .form__input {
 	display: block;
-	border-radius: 20em;
+	border-radius: 10px;
 	width: 100%;
 	border: 3px grey solid;
 	font-size: 1em;
 	margin-bottom: 15px;
 	background-color: var(--color_header);
-	/* padding-left: 20px; */
+	padding: 0.5em;
+	padding-left: 1em;
 }
-#dropdown {
-	padding: 5px;
+
+label {
+	display: inline-block;
+	margin: 1em auto 0.5em auto;
 }
 datalist {
 	border-radius: unset;

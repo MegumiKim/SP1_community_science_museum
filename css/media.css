@@ -92,8 +92,8 @@
 
 @media (min-width: 1000px) {
 	.logo {
-		max-width: 300px;
-		font-size: 1.5em;
+		max-width: 250px;
+		font-size: 1.2em;
 	}
 
 	.back_button {
@@ -101,10 +101,10 @@
 		left: 70px;
 	}
 
-	#search_container {
+	/* #search_container {
 		right: 12%;
 		top: 60px;
-	}
+	} */
 
 	main {
 		font-size: 20px;
