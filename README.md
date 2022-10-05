@@ -1,3 +1,7 @@
+![Screenshot](images/events/andrew-ruiz-348421.jpg)
+
+
+
 # Community Science Museum
 Semester Project 1
 
