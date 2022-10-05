@@ -1,7 +1,3 @@
-![Screenshot](images/events/andrew-ruiz-348421.jpg)
-
-
-
 # Community Science Museum
 Semester Project 1
 
@@ -26,3 +22,4 @@ Designing a website for a local science museum, using HTML/CSS.
 [My LinkedIn page](www.linkedin.com/in/kimuramegumi/)
 
  
+![Screenshot](images/events/andrew-ruiz-348421.jpg)
