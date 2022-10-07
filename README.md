@@ -1,7 +1,7 @@
 # Community Science Museum
-Semester Project 1
+Semester Project 1 
 
-Designing a website for a local science museum, using HTML/CSS.
+A website for a local science museum.
 
 ## Requirements
 
@@ -10,6 +10,7 @@ Designing a website for a local science museum, using HTML/CSS.
  - Accessibilities/WCAG guidelines, SEO
  
 ## Built with
+ - Adobe XD
  - HTML
  - CSS
  
