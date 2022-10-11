@@ -36,6 +36,4 @@ git clone git@github.com:MegumiKim/SP1_community_science_museum.git
 
 [My LinkedIn page](www.linkedin.com/in/kimuramegumi/)
 
- 
-![Screenshot](images/events/andrew-ruiz-348421.jpg)
 
